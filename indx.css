@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(../WEB1/Image/Backgroundimage.jpg);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5% 6%;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li a:hover {
+    color: #65419b;
+    transition: 0.3s;
+}
+
+.contact {
+    margin-top: 5%;
+}
+
+.ZR {
+    width: 500px;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.GIF {
+    width: 450px;
+    margin-left: 15%;
+    position: absolute;
+}
+
+.SecondText {
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 15%;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.ThirdText {
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: small;
+    color: #fff;
+}
+
+.button {
+    background-image: linear-gradient(to right, #b265fc, rgb(19, 174, 246));
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20%;
+    border-radius: 90px;
+    margin-top: 2%;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.button:hover {
+    border: 2px groove #b265fc;
+    background: transparent;
+    transition: .2s;
+}
+
+.page2header {
+    color: #fff;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 30%;
+    position: relative;
+}
+
+.page2header::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    background-color: #3e1ef4;
+    left: 50%;
+    height: 3px;
+    bottom: 5px;
+    transition: 0.3s;
+}
+
+.page2header:hover::after {
+    width: 57%;
+    left: 22%;
+}
+
+.page2firsttext {
+    margin-top: 1%;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*--------page2------*/
+
+.elimageelaytlatkosmy {
+    width: 500px;
+}
+
+.GraphicDesign {
+    text-align: center;
+    color: #fff;
+}
+
+.elimageelaytlatkosmy:hover {
+    transform: scale(1.1);
+}
+
+
+/*--------page3------*/
+
+.page3 {
+    margin-left: 20%;
+}
+
+.imagepage3 {
+    margin-left: 500px;
+}
